@@ -1,0 +1,990 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+
+
+.flex-row-a {
+  position: relative;
+  width: 100%; 
+  height: 87px;
+  margin: 1647px 0 0 -31px;
+  z-index: 28;
+  overflow: hidden; 
+}
+
+
+.rectangle {
+  position: absolute;
+  width: 1800px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  background: #8abcc9;
+}
+
+.scrolling-text-wrapper {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  white-space: nowrap;
+}
+
+.goodnight-dreams-magic {
+  color: #ffffff;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+  margin-right: 50px; 
+  animation: scrollText 12s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+
+.flex-row-fb {
+  position: absolute;
+  width: 1667px;
+  height: 1677px;
+  top: -30px;
+  left: 0;
+  z-index: 49;
+}
+.line {
+  position: absolute;
+  width: 3px;
+  height: 144px;
+  top: 30px;
+  left: 1306px;
+  background: url(./assets/images/line.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.line-1 {
+  position: absolute;
+  width: 4px;
+  height: 86px;
+  top: 30px;
+  left: 178px;
+  background: url(./assets/images/line1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.line-2 {
+  position: absolute;
+  width: 22px;
+  height: 139px;
+  top: 16px;
+  left: 511px;
+  background: url(./assets/images/line2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.line-3 {
+  position: absolute;
+  width: 14px;
+  height: 144px;
+  top: 30px;
+  left: 893px;
+  background: url(./assets/images/line3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.line-4 {
+  position: absolute;
+  width: 10px;
+  height: 231px;
+  top: 30px;
+  left: 1036px;
+  background: url(./assets/images/line4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.line-5 {
+  position: absolute;
+  width: 4px;
+  height: 150px;
+  top: 30px;
+  left: 718px;
+  background: url(./assets/images/line5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.line-6 {
+  position: absolute;
+  width: 6px;
+  height: 141px;
+  top: 30px;
+  left: 359px;
+  background: url(./assets/images/line6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.line-7 {
+  position: absolute;
+  width: 2px;
+  height: 143px;
+  top: 30px;
+  left: 1171px;
+  background: url(./assets/images/line7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.line-8 {
+  position: absolute;
+  width: 2px;
+  height: 281px;
+  top: 30px;
+  left: 446px;
+  background: url(./assets/images/line8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.line-9 {
+  position: absolute;
+  width: 24px;
+  height: 201px;
+  top: 30px;
+  left: 260px;
+  background: url(./assets/images/line9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.line-a {
+  position: absolute;
+  width: 6px;
+  height: 104px;
+  top: 32px;
+  left: 66px;
+  background: url(./assets/images/linea.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.line-b {
+  position: absolute;
+  width: 2px;
+  height: 204px;
+  top: 33px;
+  left: 636px;
+  background: url(./assets/images/lineb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+
+.a-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 40px;
+  left: 112px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-31deg);
+  z-index: 14;
+}
+.a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 226px;
+  top: 73px;
+  left: 449px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-22deg);
+  z-index: 18;
+}
+.e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 150px;
+  top: 84px;
+  left: 700px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-34deg);
+  z-index: 20;
+}
+.f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 200px;
+  top: 86px;
+  left: 14px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-3deg);
+  z-index: 13;
+}
+.o {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 194px;
+  top: 118px;
+  left: 1120px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 23;
+}
+.y {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 201px;
+  top: 108px;
+  left: 320px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-54deg);
+  z-index: 15;
+}
+.ampersand {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 194px;
+  top: 135px;
+  left: 858px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 21;
+}
+.r {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 194px;
+  top: 174px;
+  left: 209px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 16;
+}
+.y-c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 65px;
+  top: 160px;
+  left: 1270px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 65.436px;
+  text-align: left;
+  white-space: nowrap;
+  transform: rotate(-56deg);
+  z-index: 24;
+}
+.t {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 227px;
+  top: 184px;
+  left: 990px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-32deg);
+  z-index: 22;
+}
+.l {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 213px;
+  top: 187px;
+  left: 620px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(34deg);
+  z-index: 19;
+}
+.t-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 194px;
+  top: 244px;
+  left: 390px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 17;
+}
+.chel {
+  position: absolute;
+  width: 771px;
+  height: 812px;
+  top: 264px;
+  left: 896px;
+  background: url(./assets/images/chel1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
+.vumlf {
+  position: absolute;
+  width: 522px;
+  height: 361px;
+  top: 405px;
+  left: 224px;
+  background: url(./assets/images/devka2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 38;
+}
+.muha {
+  position: absolute;
+  width: 188px;
+  height: 194px;
+  top: 444px;
+  left: 59px;
+  background: url(./assets/images/muha2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 32;
+  animation: fly-crazy 5s infinite ease-in-out, glow 1.5s infinite alternate;
+}
+.group {
+  position: absolute;
+  width: 356px;
+  height: 348px;
+  top: 312px;
+  left: 1px;
+  background: url(./assets/images/devka1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 30;
+}
+.group-e {
+  position: absolute;
+  width: 391px;
+  height: 331px;
+  top: 341px;
+  left: 672px;
+  background: url(./assets/images/7f7e6e86-ac03-4bcd-a13d-dee7a9e2efce.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 26;
+}
+.muha-f {
+  position: absolute;
+  width: 315px;
+  height: 306px;
+  top: 402px;
+  left: 390px;
+  background: url(./assets/images/muha1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 31;
+  animation: fly 5s infinite linear, glow1 1.5s infinite alternate;
+
+}
+.oblako {
+  position: relative;
+  width: 548px;
+  height: 430px;
+  top: 509px;
+  left: 0;
+  background: url(./assets/images/oblako.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.glowgoblin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 433px;
+  height: 103px;
+  top: 133px;
+  left: 22px;
+  color: #f5f5f5;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: left;
+  transform: rotate(1.03deg);
+  z-index: 29;
+}
+
+.translation {
+  display: none;
+  position: absolute;
+  width: 433px;
+  height: 103px;
+  top: 133px;
+  left: 22px;
+  color: #f5f5f5;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 30px;  
+  font-weight: 400;
+  line-height: 36px;  
+  transform: rotate(1.03deg);
+  z-index: 29;
+}
+
+.oblako:hover .glowgoblin {
+  display: none;
+}
+
+.oblako:hover .translation {
+  display: block;
+}
+
+.group-10, .group-11, .group-12 {
+  position: absolute;
+  background-size: cover;
+  z-index: 39;
+  animation: shakeBooks 1.5s ease-in-out infinite;
+}
+
+.group-10 {
+  position: absolute;
+  width: 123px;
+  height: 115px;
+  top: 724px;
+  left: 597px;
+  background: url(./assets/images/book1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+}
+
+.group-11 {
+  width: 158px;
+  height: 162px;
+  background: url(./assets/images/book3.png) no-repeat center;
+  top: 758px;
+  left: 690px;
+  animation-delay: 0.5s;  
+}
+
+.group-12 {
+  width: 123px;
+  height: 120px;
+  background: url(./assets/images/book2.png) no-repeat center;
+  top: 763px;
+  left: 633px;
+  animation-delay: 1s;  
+}
+
+.gera {
+  position: absolute;
+  width: 945px;
+  height: 348px;
+  top: 767px;
+  left: 476px;
+  background: url(./assets/images/gera.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 37;
+}
+.akv {
+  position: absolute;
+  width: 402px;
+  height: 303px;
+  top: 943px;
+  left: 22px;
+  background: url(./assets/images/akv.png);
+    
+  background-size: cover;
+  z-index: 43;
+}
+.flex-row-d {
+  position: relative;
+  width: 500px;  
+  height: 600px; 
+  margin: 58px 0 0 32px;
+  
+  z-index: 45;
+}
+
+.r-13, .r-14, .r-15 {
+  position: absolute;
+ 
+  z-index: 44;
+
+  animation-iteration-count: infinite;
+}
+
+.r-13 {
+  width: 96px;
+  height: 41px;
+  top: 100;
+  left: 0;
+  background: url(./assets/images/r13.png) no-repeat center;
+  animation: swimR13 6s infinite;
+}
+
+.r-14 {
+  width: 146px;
+  height: 83px;
+  top: 21px;
+  left: 159px;
+  background: url(./assets/images/r14.png) no-repeat center;
+  animation: swimR14 8s infinite;
+}
+
+.r-15 {
+  width: 97px;
+  height: 44px;
+  top: 100;
+  left: 69px;
+  background: url(./assets/images/r15.png) no-repeat center;
+  animation: swimR15 7s infinite;
+}
+
+
+.kot {
+  position: absolute;
+  width: 404px;
+  height: 214px;
+  top: 1042px;
+  left: 407px;
+  background: url(./assets/images/kot.png) no-repeat center;
+  background-size: cover;
+  z-index: 42;
+  animation: jump 2s ease-in-out infinite, tail 1s linear infinite, blink 4s ease-in-out infinite, disappear 5s infinite; 
+}
+
+.hehehe {
+  position: absolute;
+  top: 1080px;
+  left: 450px;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 64px;
+  color: #ff69b4; 
+  opacity: 10; 
+  z-index: 43;
+  animation: showHehehe 5s infinite;
+}
+
+
+
+.chel-2 {
+  position: absolute;
+  width: 298px;
+  height: 441px;
+  top: 1059px;
+  left: 922px;
+  background: url(./assets/images/chel2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 36;
+}
+.rectangle-17 {
+  position: absolute;
+  width: 755px;
+  height: 34px;
+  top: 1246px;
+  left: 1px;
+  background: #c99471;
+  z-index: 34;
+  border-radius: 10px;
+}
+.devka {
+  position: absolute;
+  width: 271px;
+  height: 397px;
+  top: 1280px;
+  left: 54px;
+  background: url(./assets/images/devka3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 35;
+}
+
+
+.rectangle-18 {
+  position: absolute;
+  width: 386px;
+  height: 34px;
+  top: 1360px;
+  left: 1084px;
+  background: #c99471;
+  z-index: 33;
+  border-radius: 10px;
+}
+
+.kuku-1, .kuku-2, .kuku-3 {
+  position: absolute;
+  background-size: cover;
+  z-index: 47;
+  transition: transform 0.3s ease-in-out; 
+  transform-origin: center; 
+}
+
+
+.kuku-1 {
+  width: 202px;
+  height: 110px;
+  top: 1351px;
+  left: 605px;
+  background: url(./assets/images/kuku1.png) no-repeat center;
+  z-index: 47;
+  animation: funJumpSpin 6s cubic-bezier(0.25, 1, 0.5, 1) infinite, funnyShake 2s ease-in-out infinite alternate;
+  object-fit: contain; /* Убедимся, что изображение сохраняет пропорции */
+}
+
+
+.kuku-2 {
+  width: 212px;
+  height: 163px;
+  top: 1477px;
+  left: 402px;
+  background: url(./assets/images/kuku2.png) no-repeat center;
+  z-index: 48;
+  animation: bounceRollCrazy 5s ease-in-out infinite, headBop 1s ease-in-out infinite alternate;
+  object-fit: contain; 
+}
+
+
+.kuku-3 {
+  width: 200px;
+  height: 176px;
+  top: 1479px;
+  left: 1171px;
+  background: url(./assets/images/kuku3.png) no-repeat center;
+  z-index: 49;
+  animation: spinFallBounce 4s cubic-bezier(0.42, 0, 0.58, 1) infinite, surpriseShake 1.5s ease-in-out infinite alternate;
+  object-fit: contain; 
+}
+
+
+.kuku-1:hover {
+  transform: scale(1.5) rotate(720deg) translateY(-5px);
+  animation: none; 
+  object-fit: contain; 
+}
+
+
+.kuku-2:hover {
+  transform: scale(1.6) rotate(1080deg) translateY(-15px);
+  animation: none; 
+  object-fit: contain; 
+}
+
+
+.kuku-3:hover {
+  transform: scale(1.4) rotate(1440deg) translateY(-25px);
+  animation: none; 
+  object-fit: contain; 
+}
+
+
+
+
+.a-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 40px;
+  top: 1495px;
+  left: 912px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 57;
+}
+.f-20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 40px;
+  top: 1518px;
+  left: 982px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 55;
+}
+.o-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 40px;
+  top: 1555px;
+  left: 1069px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 53;
+}
+.e-22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 40px;
+  top: 1574px;
+  left: 959px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 60;
+}
+.y-23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 47.149px;
+  top: 1602px;
+  left: 1005px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  transform: rotate(33.7deg);
+  z-index: 54;
+}
+.l-24 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 40px;
+  top: 1606px;
+  left: 929px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 59;
+}
+.a-25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 229.695px;
+  top: -8px;
+  left: 76px;
+  color: #8abcc9;
+  font-family: Fredoka One, var(--default-font-family);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 193.6px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-31.8deg);
+  z-index: 14;
+}
+
+.t-1d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 44.073px;
+  top: 1458px;
+  left: 977px;
+  color: #8abcc9;
+  font-family: Luckiest Guy, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  transform: rotate(-43.92deg);
+  z-index: 51;
+  
+}
+
+
+
+
+.star {
+  position: relative;
+  width: 104px;
+  height: 107.355px;
+  margin: 11.962px 0 0 371px;
+  background: url(./assets/images/Star\ 18.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+}
+
+.star-1 {
+  position: absolute;
+  width: 83px;
+  height: 73.317px;
+  top: 400px;
+  left: 299px;
+  background: url(./assets/images/Star\ 20.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 41;
+}
+
+.star-2 {
+  position: absolute;
+  width: 84px;
+  height: 86.71px;
+  top: 900px;
+  left: 449px;
+  background: url(./assets/images/Star\ 17.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 40;
+}
+
+.star-3 {
+  position: absolute;
+  width: 122px;
+  height: 132px;
+  top: 1170px;
+  left: 1281px;
+  background: url(./assets/images/Star\ 19.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+
+.star-4 {
+  position: absolute;
+  width: 106.563px;
+  height: 110px;
+  top: 1300px;
+  left: 336px;
+  background: url(./assets/images/Star\ 16.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
